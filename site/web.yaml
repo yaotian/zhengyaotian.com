@@ -1,0 +1,19 @@
+page:
+  brand: "{Zheng Yaotian Blog}"
+  head:
+    title: "Zheng Yaotian Blog"
+  body:
+    title: "Zheng Yaotian Blog"
+    menu:
+      - { text: "BigData", url: "/BigData"}
+      - { text: "Golang", url: "/Golang" }
+      - { text: "Python", url: "/Python" }
+      - { text: "Web", url: "/Web" }
+      - { text: "Config", url: "/Configuration"}
+      - { text: "OS", url: "/OS"}
+      - { text: "Quotes", url: "/Quotes" }
+      - { text: "Onlooker", url: "/Onlooker" }
+      - { text: "English", url: "/English_Study" }
+      - { text: "About Me", url: "/AboutMe" }
+    menu_pull:
+      - { text: "Home", url: "/" }
