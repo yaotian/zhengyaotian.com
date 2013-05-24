@@ -9,6 +9,11 @@
 
     install.packages("knitr")
     
+4. 如果你用Rstudio直接链接数据库，你需要安装RMysql
+
+    install.packages('RMySQL',type='source')
+    
+    
 
 
     
