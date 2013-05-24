@@ -31,4 +31,5 @@ An example would be the very customizable way of plotting data in R. Secondly, o
 
 ## Good Articles
 [Massive online data stream mining with R](http://www.r-bloggers.com/massive-online-data-stream-mining-with-r/)
+[Time Series Analysis and Mining with R](http://rdatamining.wordpress.com/2011/08/23/time-series-analysis-and-mining-with-r/)
 
