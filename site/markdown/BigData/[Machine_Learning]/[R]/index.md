@@ -28,4 +28,6 @@ An example would be the very customizable way of plotting data in R. Secondly, o
 
 [R in Nutshell](http://www.amazon.com/gp/product/059680170X/ref=as_li_ss_tl?ie=UTF8&tag=florhart-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=059680170X)
 
+## Good Articles
+[Massive online data stream mining with R](http://www.r-bloggers.com/massive-online-data-stream-mining-with-r/)
 
