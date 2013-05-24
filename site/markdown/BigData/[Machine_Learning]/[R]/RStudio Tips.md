@@ -12,10 +12,12 @@
 4. 如果你用Rstudio直接链接数据库，你需要安装RMysql. 以下是操作数据库的步骤
 
         install.packages('RMySQL',type='source')
+        install.packages("ggplot2)
         conn <- dbConnect(MySQL(), user="root", password="your pwd", host="127.0.0.1", dbname="db")
         transfer_values <- dbGetQuery(con, "select * from your_table_name")
         summary(transfer_values)
         plot(transfer_values$your_column_name)
+        aplot(transfer_values$your_column_name)
         
 
     
