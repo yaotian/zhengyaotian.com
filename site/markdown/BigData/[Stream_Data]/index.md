@@ -23,6 +23,9 @@ Hadoop环境，提供了强大的计算资源，在相应的时间内可以对�
 
 这个领域的技术难点是：如何找出一种方法或算法，利用最少的资源，来获得最大的信息，以做到实时反馈
 
+## Good Articles
+[Mining stream time series and sequence data](http://www.slideshare.net/dataminingtools/mining-stream-time-series-and-sequence-data)
+
 
 
 
