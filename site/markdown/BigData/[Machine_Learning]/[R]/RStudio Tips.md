@@ -16,6 +16,8 @@
         transfer_values <- dbGetQuery(con, "select * from your_table_name")
         summary(transfer_values)
         plot(transfer_values$your_column_name)
+        
+
     
 
     
