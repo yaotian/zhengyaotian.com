@@ -21,6 +21,7 @@ An example would be the very customizable way of plotting data in R. Secondly, o
 ## Useful Link
 
 [R Video](http://jeromyanglim.blogspot.com/2010/05/videos-on-data-analysis-with-r.html)
+[Quick R, 很多有关R的Tips](http://www.statmethods.net/advstats/)
 
 ## Books
 
