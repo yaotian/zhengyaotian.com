@@ -41,6 +41,12 @@ It seems personal project. Be afraid of the lack of support.
 
 D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG and CSS.
 
+It has rich function.
+
+Comparing with jsPlum, it is more active than jsPlum.
+
+
+
 
 
 
