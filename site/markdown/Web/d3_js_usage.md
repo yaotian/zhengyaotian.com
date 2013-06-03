@@ -8,6 +8,8 @@
 
         python -m SimpleHTTPServer 8888 &    
 
+        在python3下    
+        python -m http.server 8888 &
 
 在浏览器中打开http://localhost:8888, 打开你的html。
 
