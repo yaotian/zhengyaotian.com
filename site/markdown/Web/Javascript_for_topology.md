@@ -10,4 +10,20 @@ It is rich function on network element visulization.
 
 It is commercial software. Not open source.
 
-##
+## Jgraph
+
+[Jgraph](http://www.jgraph.com/)
+
+It provides Java, Javascript libraries and rich function on network element.
+
+It is commercial software. Not open source.
+
+## Raphael
+
+[Raphael](http://raphaeljs.com/index.html)
+
+It's a small java script library which is a wrapper based on SVG/VML
+
+Be afraid the lack of support.
+
+
