@@ -24,6 +24,17 @@ It is commercial software. Not open source.
 
 It's a small java script library which is a wrapper based on SVG/VML
 
-Be afraid the lack of support.
+It's small and easy to use. ( It's very good on mobile app. )
+
+It's part of Sencha Labs ( which is developing popular Html5 application tool. )
+
+## jsPlum
+[jsPlumb](https://github.com/sporritt/jsplumb/)
+
+It's based on JQuery and YUI3.
+
+It seems personal project. Be afraid of the lack of support.
+
+
 
 
