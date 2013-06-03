@@ -1,6 +1,8 @@
 # Inventory of javascript libary to visualize the topology
 
-Search some libaries to visualize the topology diagram in the web page. This document is the summary
+Search some libaries to visualize the topology diagram in the web page. This document is the summary of the research. 
+
+The conclusion is to try D3 first. If not workable, then will try Raphael.
 
 ## TWaver
 
