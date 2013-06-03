@@ -35,6 +35,14 @@ It's based on JQuery and YUI3.
 
 It seems personal project. Be afraid of the lack of support.
 
+## D3
+
+[d3](http://d3js.org/)
+
+D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG and CSS.
+
+
+
 
 
 
