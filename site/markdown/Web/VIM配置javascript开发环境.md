@@ -18,5 +18,15 @@
         在代码中输入,w:  就可以让color:"red" 进行对其
         在代码中国年输入,w= 就可以对 a=1 进行对其
 
+## Jshint
+
+        Bundle 'walm/jshint.vim'
+        
+使用之前，需要先安装javascript Lint: http://www.javascriptlint.com/download.htm
+
+
+
+
+
 
 
