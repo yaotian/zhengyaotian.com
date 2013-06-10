@@ -24,6 +24,13 @@
         
 使用之前，需要先安装javascript Lint: http://www.javascriptlint.com/download.htm
 
+## vim-scripts / HTML-AutoCloseTag
+
+        可以让你<body> 自动补全另一部分
+
+
+
+
 
 
 
