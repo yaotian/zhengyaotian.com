@@ -244,8 +244,14 @@ ch := make(chan bool, 4)，创建了可以存储4 个元素的bool 型channel。
 x, ok = <-ch   
 当ok 被赋值为true 意味着channel 尚未被关闭，同时可以读取数据。否则ok 被赋值为false。在这个情况下表示channel 被关闭。
 
+```
 
 
+## 正则表达式
 
+让正则表达式能处理多行
 
-
+	在正则表达式前加(?s)   
+	比如：(?s)<head>(.*?)</head>  取出head之间的内容
+	
+吐槽：这个在文档中没有描述
