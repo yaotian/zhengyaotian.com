@@ -102,6 +102,12 @@
 	git quick commit
 	git push current branch
 
+## git subcomponent	
+	git submodule add  ssh://eyaotzh@gerritforge.lmera.ericsson.se:29418/sea-ui sea-ui
+	
+	if got error "fatal: You are on a branch yet to be born", rm ".git/component/<your subcomponent>
+	
+	
 
 ****
 ## 参考
