@@ -12,6 +12,6 @@
 
 你可以在程式運行過程中產生多個 heap dump 檔案，接著在 perftools 裡使用 -base 參數來比對差異
 
-e.g.
-go tool pprof ./gb --base heap-19221-1.pprof heap-19221-2.pprof 
+      e.g.
+      go tool pprof ./gb --base heap-19221-1.pprof heap-19221-2.pprof 
 
