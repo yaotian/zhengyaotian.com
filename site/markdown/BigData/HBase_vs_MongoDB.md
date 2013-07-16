@@ -15,3 +15,7 @@ http://www.mongodb.org/
 http://www.slideshare.net/mdirolf/inside-mongodb-the-internals-of-an-opensource-database        
 http://www.ningoo.net/html/2011/mongodb_in_a_nutshell_1.html          
 http://blog.csdn.net/daizhj       
+
+
+
+***有待从官网资料去验证此信息***
