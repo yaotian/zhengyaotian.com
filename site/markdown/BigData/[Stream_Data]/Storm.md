@@ -33,6 +33,12 @@ Nimbus和Supervisor节点之间所有的协调工作是通过Zookeeper集群来�
     apt-get install g++
 
 
+遇到luuid的时候，执行这个
+
+    apt-get install uuid-dev
+    
+    
+
 Jzmq
 
 ## 运行方式
