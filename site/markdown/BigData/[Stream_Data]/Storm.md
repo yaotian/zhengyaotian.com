@@ -45,7 +45,23 @@ Nimbus和Supervisor节点之间所有的协调工作是通过Zookeeper集群来�
 
 ### Jzmq
 
-    
+如果遇到这个问题
+
+    No rule to make target `classdist_noinst.stamp', needed by `org/zeromq/ZMQ.class'
+
+
+解决办法是
+
+    user$ git clone https://github.com/nathanmarz/jzmq.git
+    user$ cd jzmq
+    user$ ./autogen.sh
+    user$ ./configure
+    user$ touch src/classdist_noinst.stamp
+    user$ cd src
+    user$ CLASSPATH=.:./.:$CLASSPATH javac -d . org/zeromq/ZMQ.java org/zeromq/ZMQException.java org/zeromq/ZMQQueue.java org/zeromq/ZMQForwarder.java org/zeromq/ZMQStreamer.java
+    user$ cd ..
+    user$ make
+    user$ sudo make install
 
 需要安装依赖库
 
