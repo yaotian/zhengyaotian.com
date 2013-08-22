@@ -125,4 +125,17 @@ clientPort=2181
 
 A Storm cluster is managed by a master node called "Nimbus". Your machine communicates with Nimbus to submit code (packaged as a jar) and topologies for execution on the cluster, and Nimbus will take care of distributing that code around the cluster and assigning workers to run your topology. Your machine uses a command line client called storm to communicate with Nimbus. The storm client is only used for remote mode; it is not used for developing and testing topologies in local mode.
 
+## 运行
+start zookeeper
+
+    /opt/applications/current_zookeeper/bin/zkServer.sh start
+
+start nimbus
+
+    storm nimbus
+    
+start supervisor
+
+    storm supervisor
+
 
