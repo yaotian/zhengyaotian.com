@@ -41,7 +41,9 @@ Nimbus和Supervisor节点之间所有的协调工作是通过Zookeeper集群来�
 
 /opt/applications/current_zookeeper/conf  下面 touch zoo.cfg 加入一下内容
 
-
+tickTime=2000
+dataDir=/opt/applications/data/zookeeper
+clientPort=2181
 
 
 (?? 要下面这步吗？）
@@ -96,7 +98,26 @@ Nimbus和Supervisor节点之间所有的协调工作是通过Zookeeper集群来�
 
 
 
-## 
+## 安装storm
+
+下载，解压到目录，设置环境变量（已经在第一步设置）
+
+到<storm home>/conf/storm.yaml 加入一下内容
+
+    storm.zookeeper.servers:
+          - "localhost"
+    nimbus.host: "localhost"
+    storm.local.dir: "/opt/applications/data/stormtmp"
+    supervisor.slots.ports:
+          - 6700
+          - 6701
+          - 6702
+          - 6703
+    
+    worker.childopts: "-Xmx768m"
+    nimbus.childopts: "-Xmx512m"
+    supervisor.childopts: "-Xmx256m"
+
 
 ## 运行方式
 
