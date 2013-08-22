@@ -13,3 +13,12 @@ Storm集群中包含两类节点：主控节点（Master Node）和工作节点�
 ## 稳定性
 
 Nimbus和Supervisor节点之间所有的协调工作是通过Zookeeper集群来实现的。此外，Nimbus和Supervisor进程都是快速失败（fail-fast)和无状态（stateless）的；Storm集群所有的状态要么在Zookeeper集群中，要么存储在本地磁盘上。这意味着你可以用kill -9来杀死Nimbus和Supervisor进程，它们在重启后可以继续工作。这个设计使得Storm集群拥有不可思议的稳定性。
+
+## 依赖库
+
+安装的时候是需要安装它的依赖库的
+
+ZeroMQ
+
+Jzmq
+
