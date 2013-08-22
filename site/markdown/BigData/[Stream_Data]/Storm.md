@@ -22,9 +22,35 @@ Storm集群中包含两类节点：主控节点（Master Node）和工作节点�
 
 Nimbus和Supervisor节点之间所有的协调工作是通过Zookeeper集群来实现的。此外，Nimbus和Supervisor进程都是快速失败（fail-fast)和无状态（stateless）的；Storm集群所有的状态要么在Zookeeper集群中，要么存储在本地磁盘上。这意味着你可以用kill -9来杀死Nimbus和Supervisor进程，它们在重启后可以继续工作。这个设计使得Storm集群拥有不可思议的稳定性。
 
-## 依赖库
+## 依赖的第三方
 
-安装的时候是需要安装它的依赖库的
+安装的时候是需要安装它的依赖第三方软件
+
+### 将 以下内容加入到环境变量中 .bashrc
+
+    export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
+    export ZOOKEEPER_HOME=/opt/applications/current_zookeeper
+    export STORM_HOME=/opt/applications/current_storm
+    export PATH=$PATH:$ZOOKEEPER_HOME/bin:$STORM_HOME/bin
+
+按你安装的软件目录做相应的修改
+
+### Zookeeper
+
+直接解压到/opt/applications/zookeeper-3.4.5  然后ln -s ./zookeeper-3.4.5 ./current_zookeeper
+
+/opt/applications/current_zookeeper/conf  下面 touch zoo.cfg 加入一下内容
+
+
+
+
+(?? 要下面这步吗？）
+
+在/etc/ld.so.conf后追加/usr/local/lib/
+
+  sudo ldconfig
+  
+
 
 ### ZeroMQ
 
@@ -69,6 +95,8 @@ Nimbus和Supervisor节点之间所有的协调工作是通过Zookeeper集群来�
     apt-get install autoconf
 
 
+
+## 
 
 ## 运行方式
 
