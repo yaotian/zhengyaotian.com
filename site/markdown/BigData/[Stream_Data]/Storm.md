@@ -98,7 +98,7 @@ clientPort=2181
 
 
 
-## 安装storm
+## 安装设置storm
 
 下载，解压到目录，设置环境变量（已经在第一步设置）
 
@@ -119,6 +119,10 @@ clientPort=2181
     supervisor.childopts: "-Xmx256m"
 
 
+到root目录创建目录.storm， 拷贝 一个storm.yaml到这个目录下
+
 ## 运行方式
 
 A Storm cluster is managed by a master node called "Nimbus". Your machine communicates with Nimbus to submit code (packaged as a jar) and topologies for execution on the cluster, and Nimbus will take care of distributing that code around the cluster and assigning workers to run your topology. Your machine uses a command line client called storm to communicate with Nimbus. The storm client is only used for remote mode; it is not used for developing and testing topologies in local mode.
+
+
