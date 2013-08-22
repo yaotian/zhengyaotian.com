@@ -26,7 +26,12 @@ Nimbus和Supervisor节点之间所有的协调工作是通过Zookeeper集群来�
 
 安装的时候是需要安装它的依赖库的
 
-ZeroMQ
+### ZeroMQ
+
+遇到找不到编译器的问题的时候，执行这个      
+
+    apt-get install g++
+
 
 Jzmq
 
