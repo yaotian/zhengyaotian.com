@@ -139,3 +139,36 @@ start supervisor
     storm supervisor
 
 
+## 运行一个example
+
+https://github.com/nathanmarz/storm-starter
+
+## 安装一个设置环境的脚本
+
+https://github.com/technomancy/leiningen
+
+简单有效的方法是直接运行那个script, script会自动下载它需要的包。
+
+遇到的问题有
+
+    java -cp $(lein classpath) storm.starter.ExclamationTopology
+
+这个没有结果。原因是lein classpath 停止在那里，原因是没有设置 LEIN_ROOT 
+
+    export LEIN_ROOT=/usr/local/bin
+
+/usr/local/bin是你放脚本的那个目录
+
+Java example
+
+    lein deps
+    lein compile
+    java -cp $(lein classpath) storm.starter.ExclamationTopology
+    
+Clojure example    
+    
+    lein deps
+    lein compile
+    lein run -m storm.starter.clj.word-count
+    
+    
