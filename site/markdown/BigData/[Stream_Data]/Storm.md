@@ -43,7 +43,16 @@ Nimbus和Supervisor节点之间所有的协调工作是通过Zookeeper集群来�
     
     
 
-Jzmq
+### Jzmq
+
+    
+
+需要安装依赖库
+
+    apt-get install libtool
+    apt-get install autoconf
+
+
 
 ## 运行方式
 
