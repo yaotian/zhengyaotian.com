@@ -1,4 +1,4 @@
-# Storm Yarn
+# 开源运行在Hadoop上的Storm （Storm-Yarn）
 
 ## 好处
 
