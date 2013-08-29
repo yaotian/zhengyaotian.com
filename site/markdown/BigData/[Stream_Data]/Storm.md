@@ -171,4 +171,13 @@ Clojure example
     lein compile
     lein run -m storm.starter.clj.word-count
     
-    
+# 问题集
+
+## 开发过程
+
+###  用python写bolt和spout的过程中，遇到进程遗留在系统中。这是storm目前存在的问题
+
+可以用下面的命令来杀掉进程
+
+ps aux | grep python | awk '{ print $2 }' | xargs kill
+
