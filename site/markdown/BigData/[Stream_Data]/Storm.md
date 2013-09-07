@@ -179,5 +179,12 @@ Clojure example
 
 可以用下面的命令来杀掉进程
 
-ps aux | grep python | awk '{ print $2 }' | xargs kill
+    ps aux | grep python | awk '{ print $2 }' | xargs kill
+
+update: 有一个更简单的命令: 
+
+    killall python
+
+
+
 
