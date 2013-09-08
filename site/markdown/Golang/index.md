@@ -1,5 +1,7 @@
 # Golang
 
+![golang](/images/md/golang.jpeg)
+
 接触了不少程序语言，大学的C,C++,pascal,VB, VC, 后来工作中用到了Perl, PHP, Java, Shell script. 业余项目用Python. 后来因为关注了分布式操作系统Plan9, 再而知道Plan9的几个大牛从贝尔实验室来到google发明了golang,进而才仔细关注了golang.
 
 接触到golang以后，对它有一种莫名的好感。对它的感觉像是。。。浑身肌肉疙瘩的刚满18岁的棒小伙，充满了力量，却不失行动的轻盈，虽然有些稚气，却充满了希望。
