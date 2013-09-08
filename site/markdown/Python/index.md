@@ -1,5 +1,5 @@
 # Python
 
-![python](/images/md/python.png)
+![python](/images/md/python-logo.png)
 
 
