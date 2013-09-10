@@ -13,3 +13,11 @@
 ## 列出所有table名
 
     \d
+
+## 连接数据库
+
+    psql -h <host> -p <port> -U <name> -d <databaseName>
+
+
+
+
