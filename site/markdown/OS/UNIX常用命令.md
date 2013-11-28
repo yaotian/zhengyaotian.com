@@ -23,3 +23,8 @@
 
 	 sudo addgroup jiaqi sudo
 
+6. apt 搜索软件
+
+	sudo sudo apt-cache search <your software>
+	
+	
