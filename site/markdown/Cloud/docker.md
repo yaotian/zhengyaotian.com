@@ -6,6 +6,7 @@
 
 ##在Ubuntu上安装
 
+    sudo apt-cache search lxc-docker
     sudo apt-get install lxc-docker-0.7.1
 
 ##代理问题的解决
