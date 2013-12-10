@@ -32,3 +32,5 @@
 
 
 3. 运行docker search 
+
+    <code>docker run ubuntu /bin/echo hello world</code>
