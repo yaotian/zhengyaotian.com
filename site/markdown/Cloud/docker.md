@@ -4,11 +4,11 @@
 
 支持Ubuntu
 
-##　在Ubuntu上安装
+##在Ubuntu上安装
 
     sudo apt-get install lxc-docker-0.7.1
 
-##  代理问题的解决
+##代理问题的解决
 
 一半您的unbundu，会在公司的防火墙之后，所以您需要设置代理。
 
