@@ -23,12 +23,12 @@
 1. 停掉默认的docker 后台
 
 
-    service docker stop
+    ```service docker stop
       
 2. 在具有proxy的环境变量下运行后台进
     
 
-    HTTP_PROXY=<your proxy>:8080 docker -d &
+    ```HTTP_PROXY=<your proxy>:8080 docker -d &
 
 
 3. 运行docker search 
