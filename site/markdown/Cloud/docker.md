@@ -19,9 +19,12 @@
     
 
     sudo -E sh -c "wget -qO- https://get.docker.io/gpg | apt-key add -"
-
-    sudo -E apt-cache search lxc-docker
+    sudo -E sh -c "echo deb http://get.docker.io/ubuntu docker main\
+    >> /etc/apt/sources.list.d/docker.list"
+    sudo -E apt-get update
     sudo -E apt-get install lxc-docker-0.7.1
+    
+    
     
 
 ##代理问题的解决
