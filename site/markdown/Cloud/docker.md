@@ -2,7 +2,11 @@
 
 目前版本0.7
 
-支持Ubuntu
+支持Ubuntu, 一定要装64位的，否则装不上docker，目前不支持
+
+http://docs.docker.io/en/latest/installation/ubuntulinux/
+
+
 
 ##在Ubuntu上安装
 
