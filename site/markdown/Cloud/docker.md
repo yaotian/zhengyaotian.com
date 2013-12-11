@@ -9,6 +9,14 @@
     sudo apt-cache search lxc-docker
     sudo apt-get install lxc-docker-0.7.1
 
+如果你在防火墙之后
+
+    export http_proxy=<your proxy>
+    export https_proxy=$http_proxy
+    sudo -E apt-cache search lxc-docker
+    sudo -E apt-get install lxc-docker-0.7.1
+    
+
 ##代理问题的解决
 
 一半您的unbundu，会在公司的防火墙之后，所以您需要设置代理。
