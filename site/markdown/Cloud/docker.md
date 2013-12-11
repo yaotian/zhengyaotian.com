@@ -6,17 +6,21 @@
 
 ##在Ubuntu上安装
 
-    sudo apt-cache search lxc-docker
-    sudo apt-get install lxc-docker-0.7.1
 
-如果你在防火墙之后
-
+    
     export http_proxy=<your proxy>
     export https_proxy=$http_proxy
+    
+
+（为方便，最好将上面的设置到你的.bashrc中）
+
+    
     sudo -E apt-get update
     sudo -E apt-get install linux-image-generic-lts-raring linux-headers-generic-lts-raring
     sudo reboot
-    
+
+
+重启以后
 
     sudo -E sh -c "wget -qO- https://get.docker.io/gpg | apt-key add -"
     sudo -E sh -c "echo deb http://get.docker.io/ubuntu docker main\
@@ -47,11 +51,11 @@
 2. 在具有proxy的环境变量下运行后台进
     
 
-    <code>HTTP_PROXY=<your proxy>:8080 docker -d & </code>
+    <code>sudo -E docker -d & </code>
 
 
 3. 运行docker search 
 
-    <code>docker run ubuntu /bin/echo hello world</code>
+    <code>sudo -E docker run ubuntu /bin/echo hello world</code>
     
-    <code>docker run -i -t ubuntu /bin/bash </code>
+    <code>sudo -E docker run -i -t ubuntu /bin/bash </code>
