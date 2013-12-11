@@ -15,6 +15,11 @@
     export https_proxy=$http_proxy
     sudo -E apt-get update
     sudo -E apt-get install linux-image-generic-lts-raring linux-headers-generic-lts-raring
+    sudo reboot
+    
+
+    sudo -E sh -c "wget -qO- https://get.docker.io/gpg | apt-key add -"
+
     sudo -E apt-cache search lxc-docker
     sudo -E apt-get install lxc-docker-0.7.1
     
