@@ -1,6 +1,6 @@
 # 建立自己的私有docker repository
 
-## 安装docker repositroy
+## 安装并运行docker repositroy
       
       
       git clone https://github.com/dotcloud/docker-registry
@@ -9,13 +9,11 @@
       vi config.yml
 
 
-
-
-      # This is the default configuration when no flavor is specified
-      dev:
-          storage: local
-          storage_path: /home/vagrant/registry
-          loglevel: debug
+            # This is the default configuration when no flavor is specified
+            dev:
+                storage: local
+                storage_path: /home/vagrant/registry
+                loglevel: debug
 
 
 
