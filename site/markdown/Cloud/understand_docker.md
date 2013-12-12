@@ -20,3 +20,5 @@ google的computer engine开始支持
 baidu用来做从写他们的PaaS
 
 ## 目前存在的问题
+
+ docker目前缺少了三个功能：磁盘限制、网络限制、从宿主机到container执行命令； 好在 warden 里面有这些实现，拿过来改改
