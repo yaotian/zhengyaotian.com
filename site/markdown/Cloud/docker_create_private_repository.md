@@ -8,13 +8,13 @@
 
 
 
-...
-# This is the default configuration when no flavor is specified
-dev:
-    storage: local
-    storage_path: /home/vagrant/registry
-    loglevel: debug
-...
+
+      # This is the default configuration when no flavor is specified
+      dev:
+          storage: local
+          storage_path: /home/vagrant/registry
+          loglevel: debug
+
 
 
       mkdir /home/vagrant/registry
