@@ -1,5 +1,7 @@
 ## 最新更新
 
+* [建立自己的私有docker repository](http://zhengyaotian.com/Cloud/docker_create_private_repository)
+* [docker安装](http://zhengyaotian.com/Cloud/docker)
 * [Postgresql Tips](http://zhengyaotian.com/OS/postgresql_tips)
 * [google搜索被屏蔽的解决办法](http://zhengyaotian.com/OS/google_%E5%85%B3%E9%94%AE%E5%AD%97)
 * [Storm](/BigData/[Stream_Data]/Storm)

@@ -33,6 +33,7 @@ Global grouping: The entire stream goes to a single one of the bolt's tasks. Spe
 Every node in a topology must declare the output fields for the tuples it emits.
 
 
+<<<<<<< HEAD
 _collector.emit(tuple, new Values(tuple.getString(0) + "!!!"));
 _collector.ack(tuple);
 
@@ -49,4 +50,5 @@ conf.setNumWorkers(2);
 A Task is thread.. A Worker is a physical VM. 
 
 
+Storm中的fieldGroup能保证同一个field到同一个bolt, 但不能保证同一个bolt运行的都是那个filed的数据。
 
